@@ -1,3 +1,4 @@
+"use client"
 import { IPokemon } from "@/types/pokemon";
 import { PokemonInstance } from "../instance";
 
@@ -15,4 +16,4 @@ const getPokemonByName = async (name: string): Promise<IPokemon> => {
 
 export const PokemonService = {
     getPokemonByName,
-  };
+};
