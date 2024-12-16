@@ -16,6 +16,10 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  /* background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* .background-gradiunt {
+  background-image: linear-gradient(to left, rgba(14, 116, 157, 1), rgba(48, 167, 215, 1));
+} */
