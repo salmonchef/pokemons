@@ -1,3 +1,4 @@
+"use client"
 import axios from "axios";
 
 export const PokemonInstance = axios.create({
@@ -6,4 +7,4 @@ export const PokemonInstance = axios.create({
     headers: {
       "Content-Type": "application/json",
     },
-  });
+});
